@@ -1,5 +1,6 @@
 /* Links útiles:
 colorhunt.co
+fontawesome.com
 
 
 */
@@ -10,11 +11,53 @@ colorhunt.co
 #Titulo-principal{ /* Esto es un ID */
     color:#ffff00;
 }
-h3{color:white;}
+h3{
+    color:white;
+    border: 2px solid red;
+    padding: 3px;
+    
+}
 body{background-image:url(./images/Obelisco.jpg);}
-*{color:white;}
+
+p{
+    color: white;
+}
 
 .foto-body{
     width: 50%;
     height: 500px;
+}
+
+.icono-mail{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0px;
+    background-color: grey;
+}
+menu{
+    list-style-type: none;
+}
+
+menu > a > li{
+    display:inline;
+}
+
+#col-der{
+    width: 50%;
+    float: right;
+    top:0px;
+}
+#col-izq{
+    width: 50%;
+    float: left;
+}
+#legales{
+    bottom: 0;
+    position: fixed;
 }
