@@ -6,21 +6,26 @@ fontawesome.com
 */
 
 .lista-desordenada{ /* Esto es una clase */
-    
-}
-#Titulo-principal{ /* Esto es un ID */
-    color:#ffff00;
-}
+    color:black;
+}   
+
 h3{
     color:white;
     border: 2px solid red;
     padding: 3px;
     
 }
-body{background-image:url(./images/Obelisco.jpg);}
 
+body{color:red;}
+
+#Te-saluda{
+    color:black;
+}
+#Nombre-completo{
+    color:black;
+}
 p{
-    color: white;
+    color: black;
 }
 
 .foto-body{
@@ -34,12 +39,11 @@ p{
     right: 20px;
 }
 
-header{
+/*header{
     position: sticky;
     position: -webkit-sticky;
     top:0px;
-    background-color: grey;
-}
+}*/
 menu{
     list-style-type: none;
 }
@@ -47,17 +51,16 @@ menu{
 menu > a > li{
     display:inline;
 }
-
-#col-der{
-    width: 50%;
-    float: right;
-    top:0px;
+.row{
+    background-color:yellow
 }
-#col-izq{
-    width: 50%;
-    float: left;
+.col{
+    border: 1px solid white;
 }
-#legales{
-    bottom: 0;
-    position: fixed;
+.navbar-nav{
+    flex-direction: row !important;  
 }
+.navbar-nav .nav-link {
+    padding-right: 10px !important;
+    padding-left: 0 !important;
+}   
