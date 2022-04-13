@@ -53,7 +53,7 @@ menu > a > li{
     display:inline;
 }
 .row{
-    background-color:yellow
+    background-color:teal
 }
 .col{
     border: 1px solid white;
@@ -64,6 +64,4 @@ menu > a > li{
 .navbar-nav .nav-link {
     padding-right: 10px !important;
     padding-left: 0 !important;
-}
-.Form-Registro{
 }

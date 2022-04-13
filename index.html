@@ -5,17 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="container my-4 mx-auto">
-        <button class="bg-blue-500 hover:bg-red-500 text-white font-bold py-2 px-2 rounded sm:bg-green-500">
+<body class="container mx-auto mt-2">
+    <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+          <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+          <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span>
+        </div>
+        <div class="block lg:hidden">
+          <button id="boton" class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+        </div>
+        <div id="menu" class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-center text-sm lg:flex-grow ">
+            <a href="#responsive-header" class="block lg:inline-block text-teal-200 hover:text-white lg:mr-4 mt-3 lg:mt-0">
+              Docs
+            </a>
+            <a href="#responsive-header" class="block lg:inline-block text-teal-200 hover:text-white lg:mr-4 mt-3 lg:mt-0">
+              Examples
+            </a>
+            <a href="#responsive-header" class="block lg:inline-block text-teal-200 hover:text-white mt-3 lg:mt-0">
+              Blog
+            </a>
+          </div>
+          <div>
+            <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:font-bold mt-3 lg:mt-0">Download</a>
+          </div>
+
+          
+        </div>
+      </nav>
+      
+      <a href="./Pruebas.html">Pagina de pruebas</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="flex flex-wrap bg-gray-300 h-64 items-start content-center">
+        <div class="bg-orange-500 m-2 p-4">1</div>
+        <div class="bg-orange-500 m-2 p-4">Lorem ipsum dolor sit.</div>
+        <div class="bg-orange-500 m-2 p-4">3</div>
+    </div>  -->
+
+    <!-- <div class="container my-4 mx-auto">
+        <button class="bg-blue-500 hover:bg-red-500 text-white font-bold py-2 px-2 rounded sm:bg-green-500 mb-2">
             Botón
         </button>
 
-    <div class="grid grid-cols-12">  
+    <div class="grid grid-cols-12 gap-4 text-center">  
         <div class="bg-pink-500">A</div>
         <div class="bg-pink-500">A</div>
         <div class="bg-pink-500">A</div>
@@ -29,7 +78,7 @@
         <div class="bg-pink-500">A</div>
         <div class="bg-pink-500">A</div>
     </div> 
-    <!-- <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center my-3">
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center my-3">
         <div class="bg-red-400">A</div>
         <div class="bg-red-400">A</div>
         <div class="bg-red-400">A</div>
@@ -45,10 +94,10 @@
         <div class="bg-green-400">A</div>
         <div class="bg-green-400">A</div>
         <div class="bg-green-400 col-span-4">A</div>
-    </div> -->
-
-    <!-- <div class="mx-10 my-10 border p-1 rounded-3xl shadow-lg bg-red-200">
-        <p class="text-lg text-center bg-orange-300 rounded-3xl font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dignissimos repudiandae eveniet et consequuntur unde maxime minus eius magnam esse necessitatibus culpa corporis provident corrupti recusandae nulla animi, itaque quas.</p> -->
     </div>
+
+    <div class="mx-10 my-10 border p-1 rounded-3xl shadow-lg bg-red-200">
+        <p class="text-lg text-center bg-orange-300 rounded-3xl font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dignissimos repudiandae eveniet et consequuntur unde maxime minus eius magnam esse necessitatibus culpa corporis provident corrupti recusandae nulla animi, itaque quas.</p> 
+    </div> -->
 </body>
 </html>
